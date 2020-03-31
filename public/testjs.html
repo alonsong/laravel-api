@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>测试信息</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-1.10.2.min.js"></script>
+    <script language="javascript">
+        $(function() {
+            $.post('http://sii.otoecm.com:8080/api/adminlogin', {
+                email: 'songjianlong1@163.com',
+                password: '1232'
+            }, function(data) {
+                console.log(data)
+            }, 'json');
+
+        });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
