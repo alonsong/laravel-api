@@ -7,7 +7,8 @@ Larvel Api接口，集成了统一输出json格式
      |- GoVerify.php    验证类  
      |- Pagination      分页类  
 
-# ```
+```
+
 class UserController extends  Controller
 {
     private $userService;
@@ -38,4 +39,4 @@ class UserController extends  Controller
         return $this->goResponse->response_msg(1, 'success', 'users', $users);
     }
 }
-# ```
+```
